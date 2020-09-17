@@ -13,7 +13,7 @@
 DESTDIR = /usr/local
 
 # set the compiler to use
-CC = /home/andrei/tmp/xiaomi_camera_360/buildroot/buildroot-2020.02.1/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc
+CC = arm-linux-gnueabihf-gcc
 
 SVNDEV := -D'SVN_REV="$(shell svnversion -c .)"'
 CFLAGS += $(SVNDEV)
