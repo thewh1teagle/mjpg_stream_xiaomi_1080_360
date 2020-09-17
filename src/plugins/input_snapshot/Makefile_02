@@ -7,7 +7,7 @@
 #
 ###############################################################
 
-CC =  /home/andrei/tmp/xiaomi_camera_360/buildroot/buildroot-2020.02.1/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc
+CC =  arm-linux-gnueabihf-gcc
 
 OTHER_HEADERS = ../../mjpg_streamer.h ../../utils.h ../output.h ../input.h
 
