@@ -4,7 +4,7 @@ FROM debian:buster
 RUN apt-get update && apt-get install -y  \
 	bash-completion vim nano git curl wget unzip \
 	g++-arm-linux-gnueabihf make file tmux \
-	gcc software-properties-common subversion
+	gcc software-properties-common subversion imagemagick
 
 RUN dpkg --add-architecture armhf
 RUN apt-get update
